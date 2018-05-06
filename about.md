@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Divyesh Chitroda. I'm a game & web developer currently working at Play Games24x7 - Mumbai, India.
+I'm Divyesh Chitroda. I'm a game & web developer currently working at Play Games24x7 - Mumbai, India. I have a total experience of `4 years`.
 
 You can find me on:
 [GitHub](https://github.com/div5yesh)
