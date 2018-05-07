@@ -1,2 +1,3 @@
 # divchitroda.com
-hosted with GitHub Pages.
+Personal website
+> hosted with GitHub Pages
