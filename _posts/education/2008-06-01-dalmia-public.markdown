@@ -10,6 +10,7 @@ permalink: /education/dalmia-public
 ## Higher Secondary --- CBSE
 > Jun, 2008 --- May, 2010
 
+---
 ## Awards & Achievements
 
 # Science --- Science & Technology Fair, 2010

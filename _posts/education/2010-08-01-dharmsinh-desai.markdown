@@ -10,13 +10,7 @@ permalink: /education/dharmsinh-desai
 ## B. Tech --- Information Technology
 > Aug, 2010 --- May, 2014
 
-## Projects
-
-# SnapGest
-# GUI Shell in 8086 Assembly
-# Round Robin CPU Schedular
-# PushBox Java Game
-
+---
 ## CourseWork
 
 - Linux OS & Programming
@@ -36,4 +30,6 @@ permalink: /education/dharmsinh-desai
 - Distributed Computing
 - E-Commerce & E-Security
 
+---
 ## Awards & Achievements
+---

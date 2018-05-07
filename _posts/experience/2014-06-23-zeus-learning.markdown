@@ -18,9 +18,4 @@ As a senior I had the opportunity to lead a team of 4 developers with a new set 
 I have developed responsive single page applications with web accessibility and localization.
 Also, I have worked on web automation testing & unit testing frameworks.
 
-## Projects
-
-# Kepler [Cengage, MGH, StrataSim]
-# Selenium Testing Automation Framework
-# McGraw Hill Finance Widgets
-# Discovery Education Math Techbook
+---

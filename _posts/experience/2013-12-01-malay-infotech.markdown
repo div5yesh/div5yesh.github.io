@@ -12,6 +12,4 @@ permalink: /experience/malay-infotech
 
 During my internship I have developed web application with database system that integrates VCS with issue tracking tools. I have developed windows service using WCF. It also required me to create system designs, HLD as well as LLD.
 
-## Projects
-
-# TFS plugin and Web app
+---

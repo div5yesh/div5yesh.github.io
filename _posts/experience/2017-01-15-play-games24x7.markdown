@@ -12,4 +12,4 @@ permalink: /experience/play-games24x7
 
 I'm currently involved in the development of cross-platform online multiplayer card game called **Rummy**. I'm working on javascript & cocos2d, which is an open source game engine. I have also created and integrated web and game components into the platform. I'm also responsible for developing the native features of the android app.
 
-## Projects
+---
