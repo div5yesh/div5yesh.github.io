@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zeus Learning"
+title:  "🖥 Zeus Learning"
 date:   2014-06-23
 categories: Experience
 permalink: /experience/zeus-learning

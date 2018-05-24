@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dharmsinh Desai University"
+title:  "🎓 Dharmsinh Desai University"
 date:   2010-08-01
 categories: Education
 permalink: /education/dharmsinh-desai

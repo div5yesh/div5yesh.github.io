@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dalmia Public School"
+title:  "🎒 Dalmia Public School"
 date:   2008-06-01
 categories: Education
 permalink: /education/dalmia-public
