@@ -13,7 +13,7 @@ layout: default
     <h2 class="post-list-heading">{{ site.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
 	  {%- for post in site.posts -%}
-	  {%- if post.categories[0] != "Projects" -%}
+	  {%- if post.categories[0] != "Projects" and post.categories[0] != "Experiments" -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>

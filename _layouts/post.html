@@ -18,7 +18,7 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
 	{{ content }}
 	
-	{%- if page.categories[0] != "Projects" -%}
+	{%- if page.categories[0] != "Projects" and page.categories[0] != "Experiments" -%}
 	<h2 id="projects">Projects</h2>
 	{%- endif -%}
 
@@ -35,6 +35,14 @@ layout: default
 	{%- endfor -%}
 
   </div>
+
+  {%- if page.custom == true -%}
+  	{% include {{page.url}}/index.html %}
+  {%- endif -%}
+
+  {%- if page.script -%}
+	<script src="/assets{{ page.url }}/{{ page.script }}"></script>
+  {%- endif -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
