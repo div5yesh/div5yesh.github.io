@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "🃏 Play Games24x7"
+logo: "🃏"
+title:  "Play Games24x7"
 date:   2017-01-15
 categories: Experience
 permalink: /experience/play-games24x7

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "🗄 Malay Infotech"
+logo: "🗄"
+title:  "Malay Infotech"
 date:   2013-12-01
 categories: Experience
 permalink: /experience/malay-infotech
