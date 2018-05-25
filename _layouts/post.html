@@ -40,9 +40,9 @@ layout: default
   	{% include {{page.url}}/index.html %}
   {%- endif -%}
 
-  {%- if page.script -%}
+  <!-- {%- if page.script -%}
 	<script src="/assets{{ page.url }}/{{ page.script }}"></script>
-  {%- endif -%}
+  {%- endif -%} -->
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
