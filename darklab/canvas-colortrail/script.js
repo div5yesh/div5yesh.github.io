@@ -31,6 +31,11 @@ document.body.onload = function () {
 		actors[actors.length] = actor;
 
 	});
+
+	canvas.addEventListener('touchmove', function (event) {
+		console.log(event);
+
+	});
 }
 
 class Actor {
