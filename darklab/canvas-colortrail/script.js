@@ -33,10 +33,13 @@ document.body.onload = function () {
 	});
 
 	canvas.addEventListener('touchmove', function (event) {
-		console.log(event);
+		event.preventDefault();
+
+		var actor = new Actor(event.touches[0].pageX, event.touches[0].pageY, 30);
+		actors[actors.length] = actor;
 
 	});
-}
+};
 
 class Actor {
 	constructor(x, y, r) {
