@@ -35,7 +35,9 @@ document.body.onload = function () {
 	canvas.addEventListener('touchmove', function (event) {
 		event.preventDefault();
 
-		var actor = new Actor(event.touches[0].pageX, event.touches[0].pageY, 30);
+		var x = event.touches[0].pageX - event.target.offsetLeft,
+			y = event.touches[0].pageY - event.target.offsetTop;
+		var actor = new Actor(x, y, 30);
 		actors[actors.length] = actor;
 
 	});
