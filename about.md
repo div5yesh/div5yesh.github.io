@@ -9,7 +9,7 @@ permalink: /about/
 	![ME](/assets/divchitroda.jpeg#me){: .profilepic }
 </p>
 <p class='biotext' markdown='1'>
-	I'm Divyesh Chitroda. I'm a game & web developer currently working at [Play Games24x7](/experience/play-games24x7) - Mumbai, India. I have a total experience of `4 years`.
+	I'm Divyesh Chitroda. I'm a **Game** & **Web** developer and I have a total experience of `4 years`.
 </p>
 
 You can find me on:

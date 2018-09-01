@@ -9,8 +9,8 @@ permalink: /experience/play-games24x7
 > Malad, Mumbai
 
 ## Software Development Engineer
-> Jan, 2017 --- Present
+> Jan, 2017 --- July, 2018
 
-I'm currently involved in the development of cross-platform online multiplayer card game called **Rummy**. I'm working on javascript & cocos2d, which is an open source game engine. I have also created and integrated web and game components into the platform. I'm also responsible for developing the native features of the android app.
+I was involved in the development of cross-platform online multiplayer card game called **Rummy**. I have worked on javascript & cocos2d, which is an open source game engine. I have also created and integrated web and game components into the platform. I was also responsible for developing the native features of the android app.
 
 ---
