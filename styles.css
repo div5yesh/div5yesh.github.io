@@ -114,7 +114,8 @@ div {
     /* white-space: nowrap; */
     /* top: 0; */
     /* left: 50%; */
-    color: #80807f;
+    background-color: gray;
+    /* color: #80807f; */
     /* position: relative; */
     /* transform: translateX(-50%); */
 }
@@ -133,10 +134,12 @@ div {
 animation-name: blink;
 animation-duration: 1s;
 animation-iteration-count: infinite;
-background-color: #858585;
+background-color: #f7f4f4;
 width: 10px;
 display: inline-block;
-height: 40px;
+height: 50px;
+top: 2px;
+position: relative;
 margin-left: -25px;
 }
 
@@ -162,13 +165,14 @@ div {
 /* height: 100%; */
 /* width: 100%; */
 /* margin-top: -100px; */
+background-color: #458a63;
 /* float: left; */
 /* top: 50%; */
 /* left: 50px; */
 /* width: 50px; */
 /* transform: rotateZ(90deg); */
 /* left: 50%; */
-color: #80807f;
+/* color: #80807f; */
 }
 
 .about p {
