@@ -20,6 +20,14 @@ div {
     background-size: cover; */
 }
 
+.edu, .exp{
+display: block;
+font-size: 23px;
+line-height: normal;
+top: 25%;
+position: relative;
+letter-spacing: normal;
+}
 
 .education.expand{
 
@@ -45,28 +53,50 @@ letter-spacing: 30px;
 }
 
 .navbar {
-display: block;
-/* animation-name: flicker; */
-position: relative;
-/* animation-duration: 20s; */
-/* animation-delay: 5s; */
-/* animation-iteration-count: infinite; */
-/* box-shadow: 0px 3px 15px -2px black; */
-transition: top, letter-spacing, position 0.5s, 0.5s, 1s;
-/* position: sticky; */
-font-size: 40px;
-/* position: absolute; */
-/* width: 100%; */
-line-height: 150px;
-text-align: center;
-/* left: 50%; */
-height: 25%;
-color: white;
-/* text-shadow: 3px 1px 0px #80807f; */
-letter-spacing: 15px;
-/* font-weight: bold; */
-/* font-family: sans-serif; */
-/* transform: translateX(-50%); */
+
+display: block;
+
+/* animation-name: flicker; */
+
+position: relative;
+
+/* animation-duration: 20s; */
+
+/* animation-delay: 5s; */
+
+/* animation-iteration-count: infinite; */
+
+/* box-shadow: 0px 3px 15px -2px black; */
+
+transition: top, letter-spacing, position 0.5s, 0.5s, 1s;
+
+/* position: sticky; */
+
+font-size: 40px;
+
+/* position: absolute; */
+
+/* width: 100%; */
+
+line-height: 150px;
+
+text-align: center;
+
+/* left: 50%; */
+
+height: 25%;
+
+color: white;
+
+/* text-shadow: 3px 1px 0px #80807f; */
+
+letter-spacing: 15px;
+
+/* font-weight: bold; */
+
+/* font-family: sans-serif; */
+
+/* transform: translateX(-50%); */
 }
 
 .about {

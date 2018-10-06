@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     navbar.click(function (event) {
         $(event.target).animate({
-            "letter-spacing": "80px",
+            // "letter-spacing": "80px",
         }, 500, "linear",
             function () {
             $(event.target).animate({
