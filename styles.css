@@ -20,58 +20,19 @@ div {
     background-size: cover; */
 }
 
-.centerpeice {
-    /* height: 100px;
-    width: 100px;
-    top: 44%;
-    font-size: 20px;
-    left: 42%;
-    transform: translate(-50%, -50%);
-    position: relative; */
+
+.education.expand{
+
+height: 100%;
+
+top: -25%;
+
+width: 100%;
+
+position: relative;
+
+letter-spacing: 30px;
 }
-
-#main:hover {
-
-    /* background-position: 41% 50%; */
-}
-
-@keyframes flicker {
-    45% {
-        color: #80807f;
-        font-weight: normal;
-    }
-
-    46% {
-        color: #c4d1d8;
-        font-weight: bold;
-    }
-
-    47% {
-        color: #80807f;
-        font-weight: normal;
-    }
-
-    48% {
-        color: #c4d1d8;
-        font-weight: bold;
-    }
-
-    49% {
-        color: #80807f;
-        font-weight: normal;
-    }
-
-    50% {
-        color: #c4d1d8;
-        font-weight: bold;
-    }
-
-    51% {
-        color: #80807f;
-        font-weight: normal;
-    }
-}
-
 
 
 .slide {
@@ -86,11 +47,12 @@ div {
 .navbar {
 display: block;
 /* animation-name: flicker; */
+position: relative;
 /* animation-duration: 20s; */
 /* animation-delay: 5s; */
 /* animation-iteration-count: infinite; */
 /* box-shadow: 0px 3px 15px -2px black; */
-transition: letter-spacing, text-shadow 0.5s, 1s;
+transition: top, letter-spacing, position 0.5s, 0.5s, 1s;
 /* position: sticky; */
 font-size: 40px;
 /* position: absolute; */
@@ -131,16 +93,26 @@ div {
 }
 
 .typecursor {
-animation-name: blink;
-animation-duration: 1s;
-animation-iteration-count: infinite;
-background-color: #f7f4f4;
-width: 10px;
-display: inline-block;
-height: 50px;
-top: 2px;
-position: relative;
-margin-left: -25px;
+
+    animation-name: blink;
+
+    animation-duration: 1s;
+
+    animation-iteration-count: infinite;
+
+    background-color: #f7f4f4;
+
+    width: 10px;
+
+    display: inline-block;
+
+    height: 50px;
+
+    top: 2px;
+
+    position: relative;
+
+    margin-left: -25px;
 }
 
 .navbar:hover {
@@ -162,61 +134,98 @@ div {
 }
 
 .education {
-/* height: 100%; */
-/* width: 100%; */
-/* margin-top: -100px; */
-background-color: #458a63;
-/* float: left; */
-/* top: 50%; */
-/* left: 50px; */
-/* width: 50px; */
-/* transform: rotateZ(90deg); */
-/* left: 50%; */
-/* color: #80807f; */
+
+    /* height: 100%; */
+
+    /* width: 100%; */
+
+    /* margin-top: -100px; */
+
+    background-color: #458a63;
+
+    /* float: left; */
+
+    /* top: 50%; */
+
+    /* left: 50px; */
+
+    /* width: 50px; */
+
+    /* transform: rotateZ(90deg); */
+
+    /* left: 50%; */
+
+    /* color: #80807f; */
 }
 
 .about p {
-display: inline;
+
+    display: inline;
 }
 
 .experience p {
-/* transform: rotateZ(-90deg); */
+
+    /* transform: rotateZ(-90deg); */
 }
 
 .experience {
-/* transform-origin: 100% 100%; */
-/* width: 50px; */
-/* top: 50%; */
-/* left: calc(100% - 50px); */
-/* height: 100%; */
-/* float: right; */
-background-color: #529294;
-/* transform: rotateZ(0deg); */
-/* color: #80807f; */
+
+    /* transform-origin: 100% 100%; */
+
+    /* width: 50px; */
+
+    /* top: 50%; */
+
+    /* left: calc(100% - 50px); */
+
+    /* height: 100%; */
+
+    /* float: right; */
+
+    background-color: #529294;
+
+    /* transform: rotateZ(0deg); */
+
+    /* color: #80807f; */
 }
 
 .education p {
-/* transform: rotateZ(90deg); */
-/* top: 50%; */
-/* left: 50%; */
+
+    /* transform: rotateZ(90deg); */
+
+    /* top: 50%; */
+
+    /* left: 50%; */
 }
 
 p {
-/* transform-origin: 0 100%; */
-/* height: 100%; */
-/* width: 100%; */
-position: relative;
-/* top: 50%; */
-white-space: nowrap;
-margin: 0;
-/* transform: rotateZ(90deg); */
+
+    /* transform-origin: 0 100%; */
+
+    /* height: 100%; */
+
+    /* width: 100%; */
+
+    position: relative;
+
+    /* top: 50%; */
+
+    white-space: nowrap;
+
+    margin: 0;
+
+    /* transform: rotateZ(90deg); */
 }
 
 .projects {
-/* width: 100%; */
-/* color: white; */
-/* top: calc(100% - 50px); */
-background-color: #a72a2a;
+
+    /* width: 100%; */
+
+    /* color: white; */
+
+    /* top: calc(100% - 50px); */
+
+    background-color: #a72a2a;
 }
 
 /* .social{width: 50px;height: 200px;position: fixed;display: inline-block;top: 50%;border: 1px solid black;}

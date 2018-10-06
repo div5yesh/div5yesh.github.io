@@ -1,26 +1,18 @@
-document.body.onload = function () {
-    // requestAnimationFrame(animate);
 
-    let t1 = document.getElementsByClassName("t1")[0],
-        t2 = document.getElementsByClassName("t2")[0],
-        centerpeice = document.getElementsByClassName("centerpeice")[0];
 
-    centerpeice.addEventListener("mouseover", function (event) {
-        centerpeice.classList.add("slide");
+$(document).ready(function () {
+
+    let navbar = $(".navbar");
+
+    navbar.click(function (event) {
+        $(event.target).animate({
+            "letter-spacing": "80px",
+        }, 500, "linear",
+            function () {
+            $(event.target).animate({
+                top: "-"+ parseInt($(event.target).attr("section")) * 25+"%",
+                height: "100%"
+            }, 1000, "linear");
+        });
     });
-
-    centerpeice.addEventListener("mouseout", function (event) {
-        centerpeice.classList.remove("slide");
-    });
-
-    // function animate() {
-    //     if (!start) start = time;
-    //     current = time - start;
-
-    //     if (current > 16) {
-
-    //     }
-
-    //     requestAnimationFrame(animate);
-    // }
-};
+});
