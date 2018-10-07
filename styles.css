@@ -57,31 +57,26 @@ div {
     color: white;
 }
 
-.education.expand {
-    height: 100%;
-    top: -25%;
-    width: 100%;
-    position: relative;
-    letter-spacing: 30px;
+@media screen and (min-width: 481px) {
+    .navbar {
+        line-height: 150px;
+    }
 }
 
-
-.slide {
-    top: 46%;
-    left: 44%;
-}
-
-.centerpeice {
-    transition: left, top, box-shadow 2s, 2s, 2s;
+@media screen and (max-width: 480px) {
+    .navbar {
+        line-height: 450px;
+    }
 }
 
 .navbar {
     display: block;
+    box-shadow: 0px -3px 19px 1px black;
     position: relative;
     transition: top, letter-spacing, position 0.5s, 0.5s, 1s;
     font-size: 40px;
-    line-height: 150px;
     text-align: center;
+    line-height: 150px;
     height: 25%;
     color: white;
     letter-spacing: 15px;
@@ -121,11 +116,6 @@ div {
     letter-spacing: 30px;
 }
 
-#content {
-    width: calc(100% - 100px);
-    height: 100%;
-}
-
 .section {
     width: 100%;
 }
@@ -141,12 +131,6 @@ div {
 
 .experience {
     background-color: #529294;
-}
-
-p {
-    position: relative;
-    white-space: nowrap;
-    margin: 0;
 }
 
 .projects {
