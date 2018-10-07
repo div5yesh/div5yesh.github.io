@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
     let navbar = $(".navbar");
@@ -12,32 +10,30 @@ $(document).ready(function () {
     });
 
     $(navbar).click(function (event) {
-        if (event.target.classList.contains("navbar")) {
+        if (event.target.classList.contains("navbar") && !event.target.classList.contains("expand")) {
+            $(event.target).addClass("expand");
             $(event.target).animate({
-                // "letter-spacing": "30px",
-            }, 500, "linear",
-                function () {
-                    $(event.target).animate({
-                        top: "-" + parseInt($(event.target).attr("section")) * 25 + "%",
-                        height: "100%"
-                    }, 1000, "linear", function () {
+                top: "-" + parseInt($(event.target).attr("section")) * 25 + "%",
+                height: "100%"
+            }, 500, "linear", function () {
 
-                        });
+            });
 
 
-                        $(".close",event.target).animate({
-                            left: "20px"
-                        }, 500);
-                });
+            $(".close", event.target).animate({
+                left: "20px"
+            }, 500);
+
         }
     });
 
     $(close).click(function (event) {
 
+        $(event.target).parent().removeClass("expand");
+
         $(event.target).parent().animate({
             height: "25%",
             top: "",
-            // "letter-spcing": "15px"
         }, 500);
 
         $(close).animate({
