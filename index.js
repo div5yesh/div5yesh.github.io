@@ -1,24 +1,48 @@
-document.body.onload = function () {
-	document.getElementById("menulist").addEventListener("click", onMenuClick);
-};
 
-function onMenuClick(event) {
-	var elem = event.target;
 
-	document.querySelectorAll("#menulist a").forEach(function (item) {
-		if (item.classList.contains("active")) {
-			item.classList.remove("active");
-		}
-	});
+$(document).ready(function () {
 
-	elem.classList.add("active");
-}
+    let navbar = $(".navbar");
+    let close = $(".close");
 
-function toggleHamburger(event) {
-	var elem = document.querySelector('.hamburger-content');
-    if (elem.style.display === "block") {
-        elem.style.display = "none";
-    } else {
-        elem.style.display = "block";
-    }
-}
+    let desg = $(".desg");
+
+    $(desg).animate(function () {
+
+    });
+
+    $(navbar).click(function (event) {
+        if (event.target.classList.contains("navbar")) {
+            $(event.target).animate({
+                // "letter-spacing": "30px",
+            }, 500, "linear",
+                function () {
+                    $(event.target).animate({
+                        top: "-" + parseInt($(event.target).attr("section")) * 25 + "%",
+                        height: "100%"
+                    }, 1000, "linear", function () {
+
+                        });
+
+
+                        $(".close",event.target).animate({
+                            left: "20px"
+                        }, 500);
+                });
+        }
+    });
+
+    $(close).click(function (event) {
+
+        $(event.target).parent().animate({
+            height: "25%",
+            top: "",
+            // "letter-spcing": "15px"
+        }, 500);
+
+        $(close).animate({
+            left: "-50px"
+        }, 500)
+    });
+
+});
