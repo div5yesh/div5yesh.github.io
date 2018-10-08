@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     });
 
-    $(navbar).click(function (event) {
+    $(navbar).bind("click touchdown",function (event) {
         if (event.target.classList.contains("navbar") && !event.target.classList.contains("expand")) {
             $(event.target).addClass("expand");
             $(event.target).animate({
@@ -27,7 +27,7 @@ $(document).ready(function () {
         }
     });
 
-    $(close).click(function (event) {
+    $(close).bind("click touchdown", function (event) {
 
         $(event.target).parent().removeClass("expand");
 
