@@ -1,55 +1,49 @@
 import { h, render, Component } from 'preact';
 import Section from './components/section';
+import Card from './components/card';
 import TypeCursor from './components/typecursor';
 
 class App extends Component{
     render(props, state){
         return <div style="width:100%; height:100%">
-            <Section index="0" name="about">
-                <TypeCursor />
-                <div class="bout">
-                    <div class="desg">WEB & GAME</div> Developer
-                </div>
-                <div class="bout">
-                    div5yesh@gmail.com | 
-                    <a href="https://medium.com/@div5yesh">Medium</a> |
-                    <a href="https://github.com/div5yesh">GitHub</a> |
-                    <a href="https://500px.com/div5yesh">500px</a>
-                </div>
+            <div class="appliner"></div>
+            <Section index="0" name="">
+                <div class="mydp"></div>
+                <h1>Divyesh Chitroda<TypeCursor/></h1>
+                <h2>Software Engineer</h2>
+                <h3>Web Developer</h3>
             </Section>
-            <Section index="1" name="experience">
-                <div class="exp">
-                    Play Games24x7 Pvt. Ltd.
-                    <br />
-                    Software Development Engineer, Jan 2017 - Jul 2018
-                </div>
-                <div class="exp">
-                    Zeus Learning Pvt. Ltd.
-                    <br />
-                    Senoir Software Engineer, Jul 2016 - Jan 2017
-                    <br />
-                    Software Engineer, Jun 2014 - Jun 2016
-                </div>
-                <div class="exp">
-                    Malay InfoTech Pvt. Ltd.
-                    <br />
-                    Software Engineer Intern, Dec 2013 - Mar 2014
-                </div>
+            <div class="menubar">
+                <ul class="menu">
+                    <li class="menuitem">About Me</li>
+                    <li class="menuitem">Experience</li>
+                    <li class="menuitem">Contact Me</li>
+                </ul>
+                <div class="menuline"></div>
+            </div>
+            <Section index="1" name="Experience">
+                <Card>
+                    
+                </Card>
             </Section>
-            <Section index="2" name="portfolio">
-                <div class="proj">
-                    Game table for Native App (Rummy Circle) – Play Games24x7
-                    <br />
-                    JavaScript | Java | Cocos2d | React | Android |Gradle, Jul 2017
-                </div>
-                <div class="proj">
-                    Interactive MS Office for learning – Zeus Learning
-                    <br />
-                    JavaScript | Java | Selenium | Backbone | Grunt, Jan 2015
-                </div>
+            <Section index="2" name="Portfolio">
             </Section>
-            <Section index="3" name="passion"/>
+            <Section index="3" name="Contact Me"/>
+            <footer>
+                <div class="copyright">
+                    © Copyright 2019, DivChitroda.com
+                </div>
+                <ul class="socialbar">
+                    <li class="socialitem"><a href="https://medium.com/@div5yesh"><img src="../assets/media/icons8-medium.svg" alt="medium@div5yesh"/></a></li>
+                    <li class="socialitem"><a href="https://github.com/div5yesh"><img src="../assets/media/icons8-github.svg" alt="github@div5yesh"/></a></li>
+                    <li class="socialitem"><a href="https://www.linkedin.com/in/div5yesh/"><img src="../assets/media/icons8-linkedin.svg" alt="linkedin@div5yesh"/></a></li>
+                </ul>
+            </footer>
         </div>
+    }
+
+    componentDidMount(){
+        
     }
 }
 
