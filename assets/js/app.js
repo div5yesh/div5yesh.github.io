@@ -2,6 +2,7 @@ import { h, render, Component } from 'preact';
 import Section from './components/section';
 import Card from './components/card';
 import TypeCursor from './components/typecursor';
+import Social from './components/social';
 
 class App extends Component{
     
@@ -34,27 +35,19 @@ class App extends Component{
                 </ul>
                 <div class="menuline"></div>
             </div>
-            <Section index="1" name="Experience">
+            <Section index="2" name="Portfolio">
                 {cards}
             </Section>
-            <Section index="2" name="Portfolio">
+            <Section index="1" name="Experience">
             </Section>
             <Section index="3" name="Contact Me"/>
             <footer>
                 <div class="copyright">
                     © Copyright 2019, DivChitroda.com
                 </div>
-                <ul class="socialbar">
-                    <li class="socialitem"><a href="https://medium.com/@div5yesh"><img src="../assets/media/icons8-medium.svg" alt="medium@div5yesh"/></a></li>
-                    <li class="socialitem"><a href="https://github.com/div5yesh"><img src="../assets/media/icons8-github.svg" alt="github@div5yesh"/></a></li>
-                    <li class="socialitem"><a href="https://www.linkedin.com/in/div5yesh/"><img src="../assets/media/icons8-linkedin.svg" alt="linkedin@div5yesh"/></a></li>
-                </ul>
+                <Social />
             </footer>
         </div>
-    }
-
-    componentDidMount(){
-        
     }
 }
 
