@@ -3,6 +3,7 @@ import Section from './components/section';
 import Card from './components/card';
 import TypeCursor from './components/typecursor';
 import Social from './components/social';
+import Menu from './components/menu';
 
 class App extends Component{
     
@@ -10,7 +11,8 @@ class App extends Component{
 
         let carddata = [{
             img: "",
-            desc: "This is rummy circle.",
+            title: "RummyCircle Native Game Table",
+            desc: "This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.",
             tech: ["cocos2d-x", "javascript"],
             loc: ""
         }];
@@ -21,20 +23,13 @@ class App extends Component{
 
         return <div style="width:100%; height:100%">
             <div class="appliner"></div>
-            <Section index="0" name="">
+            <Section index="0" name="About">
                 <div class="mydp"></div>
                 <h1>Divyesh Chitroda<TypeCursor/></h1>
-                <h2>Software Engineer</h2>
-                <h3>Web Developer</h3>
+                <h2>Web & Game Developer</h2>
+                <Social />
             </Section>
-            <div class="menubar">
-                <ul class="menu">
-                    <li class="menuitem">About Me</li>
-                    <li class="menuitem">Experience</li>
-                    <li class="menuitem">Contact Me</li>
-                </ul>
-                <div class="menuline"></div>
-            </div>
+            <Menu />
             <Section index="2" name="Portfolio">
                 {cards}
             </Section>

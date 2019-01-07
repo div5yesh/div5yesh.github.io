@@ -1,5 +1,4 @@
 import { h, render, Component } from 'preact';
-
 class Social extends Component{
 
     render(props){
