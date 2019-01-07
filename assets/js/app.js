@@ -4,7 +4,20 @@ import Card from './components/card';
 import TypeCursor from './components/typecursor';
 
 class App extends Component{
+    
     render(props, state){
+
+        let carddata = [{
+            img: "",
+            desc: "This is rummy circle.",
+            tech: ["cocos2d-x", "javascript"],
+            loc: ""
+        }];
+
+        let cards = carddata.map((data)=>{
+            return <Card {...data}/>
+        });
+
         return <div style="width:100%; height:100%">
             <div class="appliner"></div>
             <Section index="0" name="">
@@ -22,9 +35,7 @@ class App extends Component{
                 <div class="menuline"></div>
             </div>
             <Section index="1" name="Experience">
-                <Card>
-                    
-                </Card>
+                {cards}
             </Section>
             <Section index="2" name="Portfolio">
             </Section>

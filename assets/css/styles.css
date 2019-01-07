@@ -160,7 +160,7 @@ footer img{
     /* height: 40px; */
 }
 
-.socialbar{float: right;height: 50px;/* position: relative; */display: block;margin: 0;}
+.socialbar{float: right;height: 50px;/* position: relative; */display: block;margin: 0;padding-left: 0;}
 
 .socialitem{
 
