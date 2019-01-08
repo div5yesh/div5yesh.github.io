@@ -14,11 +14,29 @@ class App extends Component{
             title: "RummyCircle Native Game Table",
             desc: "This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.",
             tech: ["cocos2d-x", "javascript"],
-            loc: ""
+            loc: {text: "View on GitHub", link: "https://github.com/div5yesh"}
+        },{
+            img: "",
+            title: "RummyCircle Native Game Table",
+            desc: "This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.",
+            tech: ["cocos2d-x", "javascript"],
+            loc: {text: "View on GitHub", link: "https://github.com/div5yesh"}
+        },{
+            img: "",
+            title: "RummyCircle Native Game Table",
+            desc: "This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.",
+            tech: ["cocos2d-x", "javascript"],
+            loc: {text: "View on GitHub", link: "https://github.com/div5yesh"}
+        },{
+            img: "",
+            title: "RummyCircle Native Game Table",
+            desc: "This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.This is rummy circle.",
+            tech: ["cocos2d-x", "javascript"],
+            loc: {text: "View on GitHub", link: "https://github.com/div5yesh"}
         }];
 
-        let cards = carddata.map((data)=>{
-            return <Card {...data}/>
+        let cards = carddata.map((data, key)=>{
+            return <Card {...data} flip={key % 2}/>
         });
 
         return <div style="width:100%; height:100%">
