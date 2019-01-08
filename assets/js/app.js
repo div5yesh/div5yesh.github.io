@@ -24,8 +24,13 @@ class App extends Component{
         return <div style="width:100%; height:100%">
             <div class="appliner"></div>
             <Section index="0" name="About">
-                <div class="mydp"></div>
-                <h1>Divyesh Chitroda<TypeCursor/></h1>
+                <div class="bgimage"></div>
+                <div class="dpl0">
+                    <div class="dpl1">
+                        <div class="mydp"></div>
+                    </div>
+                </div>
+                <h1>Divyesh Chitroda<TypeCursor color="white"/></h1>
                 <h2>Web & Game Developer</h2>
                 <Social />
             </Section>

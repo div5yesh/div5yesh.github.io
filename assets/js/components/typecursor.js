@@ -1,16 +1,16 @@
 import { h, render, Component } from 'preact';
 
-const typeAnimation = {
-    backgroundColor: "black",
-    width: "10px",
-    display: "inline-block",
-    height: "50px",
-    top: "2px",
-    position: "relative"
-};
-
 class TypeCursor extends Component{
-    render(){
+    render(props){
+        const typeAnimation = {
+            backgroundColor: `${props.color}`,
+            width: "10px",
+            display: "inline-block",
+            height: "50px",
+            top: "2px",
+            position: "relative"
+        };
+
         return <div style={typeAnimation}>
         </div>
     }
