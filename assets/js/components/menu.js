@@ -6,6 +6,7 @@ class Menu extends Component{
         return <div class="menubar">
             <ul class="menu">
                 <li class="menuitem">About Me</li>
+                <li class="menuitem">Portfolio</li>
                 <li class="menuitem">Experience</li>
                 <li class="menuitem">Contact Me</li>
             </ul>
