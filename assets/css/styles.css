@@ -68,11 +68,16 @@ h4 {
 }
 
 .menu {
-background-color: #535456;
-padding: 0px 0px;
-color: white;
-width: 416px;
-margin: auto;
+
+background-color: #535456;
+
+padding: 0px 0px;
+
+color: white;
+
+width: 416px;
+
+margin: auto;
 }
 
 .menuitem {
@@ -132,6 +137,10 @@ a{
     text-decoration: none;
 }
 
+.desc{
+    padding: 0 15px;
+}
+
 .redirect{
 
 background-color: #549657;
@@ -148,7 +157,8 @@ font-size: 12px;
 }
 
 .redirect:hover{
-    background-color: #3d7340;
+    
+background-color: #3d7340;
 }
 
 .title{font-size: 20px;font-weight: 400;}
@@ -176,20 +186,24 @@ padding: 70px 0;
 
 .card .screenshot {
 
-    width: 59%;
+width: 59%;
 
-    height: 250px;
+height: 250px;
 
-    border: 1px solid black;
+/* border: 1px solid black; */
 
-    display: inline-block;
+display: inline-block;
 }
 
 .card .content {
-float: right;
-font-size: 14px;
-text-align: left;
-width: 39%;
+
+float: right;
+
+font-size: 14px;
+
+text-align: left;
+
+width: 39%;
 }
 
 .section.About h3 {
@@ -202,7 +216,8 @@ padding-top: 100px;
 }
 
 .card.flip1{
-    background-color: lightgrey;
+    
+background-color: lightgrey;
 }
 
 .flip1 .content{

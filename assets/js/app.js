@@ -10,7 +10,7 @@ class App extends Component{
     render(props, state){
 
         let carddata = [{
-            img: "",
+            img: "rummy.jpg",
             title: "RummyCircle Game Table - Native App",
             desc: `Implemented multiplayer online rummy game in Cocos2d (JavaScript & Redux) using unified codebase & Web Socket bridge in Java for native platform.
             Implemented code & resources hot update for Rummy Circle native app using Cocos2d Assets Manager.
