@@ -16,7 +16,7 @@ class Section extends Component{
 
     render(props){
         let sectionClass = `section ${props.name}`;
-        return <div class={sectionClass} onClick={this.onClick}>
+        return <div id={props.name.toLowerCase().trim()} class={sectionClass} onClick={this.onClick}>
             <h3>{props.name}</h3>
             {props.children}
         </div>
