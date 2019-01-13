@@ -95,11 +95,36 @@ h2 {
     top: 0;
 }
 
+.exp.hover .logo{
+    filter: none;
+}
+
+.exp.playgames24x7.hover h3{
+    color: #f37134;
+}
+
+.exp.zeuslearning.hover h3{
+    color: #3ca2ec;
+}
+
+.exp.malayinfotech.hover h3{
+    color: #db2e26;
+}
+
+.exp h3{
+    
+color: #696868;
+}
+
 .contact{
+    margin: 50px auto;
+}
+
+.contactme{
     
 width: 60%;
     
-margin: 40px auto;
+margin: 30px auto;
 }
 
 
@@ -124,8 +149,26 @@ cursor: pointer;
 }
 
 .experience .exp{
-    font-size: 16px;
-    padding: 10px 0;
+    
+font-size: 16px;
+    
+padding: 10px 15px;
+    
+display: inline-block;
+    
+height: 150px;
+    
+margin-top: 100px;
+}
+
+.exp .logo{
+    width: 200px;
+    filter: grayscale();
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    background-size: contain;
+    background-position: center;
 }
 
 .contact input[type="reset"]{
@@ -178,13 +221,6 @@ display: inline-block;
 border: 1px solid #939ba0;
 }
 
-.contact label{
-    
-display: inline-block;
-    
-font-size: 16px;
-}
-
 .mydp {
     height: 180px;
     box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.7);
@@ -201,7 +237,7 @@ font-size: 16px;
     display: block;
     position: relative;
     font-size: 24px;
-    margin-top: 30px;
+    margin: 150px auto;
     text-align: center;
 }
 
@@ -251,10 +287,9 @@ a {
 }
 
 .card .screenshot {
-    width: 59%;
+    width: 450px;
     height: 250px;
     display: inline-block;
-    min-width: 460px;
 }
 
 .card .content {
@@ -264,13 +299,13 @@ a {
     width: 39%;
 }
 
-.section.About h3 {
+.section.about h3 {
     display: none;
 }
 
-.About {
+.about {
     padding-top: 100px;
-    margin-top: 0;
+    margin: 0;
 }
 
 .card.flip1 {

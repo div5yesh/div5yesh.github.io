@@ -2,13 +2,35 @@ import { h, render, Component } from 'preact';
 
 class Exp extends Component{
 
-    render(props){
-        let expClass = `exp`;
+    constructor(){
+        super();
+        this.onMouseEnter = this.onMouseEnter.bind(this);
+        this.onMouseLeave = this.onMouseLeave.bind(this);
+    }
 
-        return <div class={expClass}>
+    onMouseEnter(){
+        let classList = this.base.classList;
+        if(!classList.contains("hover")){
+            this.base.classList.add("hover");
+        }
+    }
+    
+    onMouseLeave(){
+        let classList = this.base.classList;
+        if(classList.contains("hover")){
+            this.base.classList.remove("hover");
+        }
+    }
+
+    render(props){
+        let expClass = `exp ${props.company.toLowerCase().replace(' ', '')}`,
+        imgsrc = `../assets/media/${props.img}`;
+
+        return <div class={expClass} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
             <div>
-                {props.title}<br/>
-                {props.company}
+                <div class="logo" style={`background-image: url('${imgsrc}')`}></div>
+                <h3>{props.title}</h3>
+                <h3>{props.company}</h3>
             </div>
         </div>
     }

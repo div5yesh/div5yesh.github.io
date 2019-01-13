@@ -13,12 +13,15 @@ class App extends Component{
         super();
         this.state = {
             expdata: [{
-                title: "Software Development Engineer",
+                img: "games24x7.png",
+                title: "Software Dev. Engineer",
                 company: "Play Games24x7"
             },{
+                img: "zeus.png",
                 title: "Software Engineer",
                 company: "Zeus Learning"
             },{
+                img: "malay.png",
                 title: "Software Engineer Intern",
                 company: "Malay Infotech"
             }],
