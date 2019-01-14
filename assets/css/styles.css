@@ -28,7 +28,6 @@ h5,
 .h4,
 .h5 {
     color: #337ab7;
-    font-weight: 300;
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -39,9 +38,10 @@ h4 {
     margin-top: 10px;
 }
 
-.About h1,
+.about h1,
 h2 {
     color: #dfdfe0;
+    font-weight: 300;
 }
 
 .menuline {
@@ -111,13 +111,34 @@ h2 {
     color: #db2e26;
 }
 
+.exp.exp.zeuslearning .logo{width: 110px;}
+
 .exp h3{
+    color: #696868;
+    font-weight: 300;
+    margin: 0;
+}
+
+.card .screenshot img{
+    width: 100%;
+    height: 100%;
+}
+
+.card.rogueai .screenshot {
     
-color: #696868;
+width: 180px;
+    
+height: 180px;
+}
+
+.card.rummy .screenshot{
+    width: 450px;
+    height: 250px;
 }
 
 .contact{
     margin: 50px auto;
+    width: 450px;
 }
 
 .contactme{
@@ -130,22 +151,14 @@ margin: 30px auto;
 
 
 .contact input[type="submit"], .contact input[type="reset"]{
-    
-background-color: lightblue;
-    
-border: none;
-    
-border-radius: 4px;
-    
-padding: 15px;
-    
-margin: 12px 0;
-    
-display: block;
-    
-width: 100px;
-    
-cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 12px 10px;
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
 }
 
 .experience .exp{
@@ -158,22 +171,29 @@ display: inline-block;
     
 height: 150px;
     
-margin-top: 100px;
+margin-top: 60px;
 }
 
 .exp .logo{
-    width: 200px;
-    filter: grayscale();
-    height: 40px;
-    background-repeat: no-repeat;
-    margin: 10px auto;
-    background-size: contain;
-    background-position: center;
+    
+width: 200px;
+    
+filter: grayscale();
+    
+height: 40px;
+    
+background-repeat: no-repeat;
+    
+margin: 10px auto;
+    
+background-size: contain;
+    
+background-position: center;
 }
 
 .contact input[type="reset"]{
-    margin-left: 120px;
-    margin-top: -57px;
+    /* margin-left: 120px; */
+    /* margin-top: -57px; */
 }
 
 .contact input[type="submit"]:hover, .contact input[type="reset"]:hover{
@@ -237,7 +257,7 @@ border: 1px solid #939ba0;
     display: block;
     position: relative;
     font-size: 24px;
-    margin: 150px auto;
+    margin: 60px auto;
     text-align: center;
 }
 
@@ -280,6 +300,7 @@ a {
 .contentholder {
     width: 65%;
     margin: auto;
+    overflow: visible;
 }
 
 .card {

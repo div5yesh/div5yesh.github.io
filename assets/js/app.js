@@ -34,7 +34,7 @@ class App extends Component{
                 tech: ["Cocos2d-x | ", "Javascript | ", "Redux | ", "Gradle | ", "Android | ", "Java"],
                 loc: {text: "Open app site", link: "https://www.rummycircle.com/"}
             },{
-                img: "",
+                img: "kepler.png",
                 title: "MS Office Web Simulation",
                 desc: `Developed MS Excel web simulation in JavaScript & web app to visualize project reports using Redmine API.
                 Implemented file auto save functionality using web workers & auto-fill series algorithms for Excel.
@@ -49,7 +49,7 @@ class App extends Component{
                 tech: ["OpenCV | ", "Java"],
                 loc: {text: "View on GitHub", link: "https://github.com/div5yesh/snapgest"}
             },{
-                img: "",
+                img: "rogueai.gif",
                 title: "Rogue-like Explorer AI Agent",
                 desc: `Implemented exploration agent with propositional knowledge base for inference and decision making, A-star and depth-limited search for path planning.
                 Increased average exploration rate to 98% and winning chances by 20-30%.`,
