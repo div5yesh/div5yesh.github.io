@@ -83,6 +83,8 @@ h2 {
     display: inline-block;
 }
 
+
+
 #app {
     width: 100%;
     height: 100%;
@@ -95,150 +97,161 @@ h2 {
     top: 0;
 }
 
-.exp.hover .logo{
+.exp.hover .logo {
     filter: none;
 }
 
-.exp.playgames24x7.hover h3{
+.exp.playgames24x7.hover h3 {
     color: #f37134;
 }
 
-.exp.zeuslearning.hover h3{
+.exp.zeuslearning.hover h3 {
     color: #3ca2ec;
 }
 
-.exp.malayinfotech.hover h3{
+.exp.malayinfotech.hover h3 {
     color: #db2e26;
 }
 
-.exp.exp.zeuslearning .logo{width: 110px;}
-
-.exp h3{
-    color: #696868;
-    font-weight: 300;
-    margin: 0;
+.exp.exp.zeuslearning .logo {
+    width: 110px;
 }
 
-.card .screenshot img{
+.exp h3 {
+
+    color: #696868;
+
+    font-weight: 300;
+
+    margin: 0;
+}
+
+.card .screenshot img {
     width: 100%;
     height: 100%;
 }
 
 .card.rogueai .screenshot {
-    
-width: 180px;
-    
-height: 180px;
+
+    width: 180px;
+
+    height: 180px;
 }
 
-.card.rummy .screenshot{
+.card.rummy .screenshot {
     width: 450px;
     height: 250px;
 }
 
-.contact{
+.contact {
     margin: 50px auto;
-    width: 450px;
+    max-width: 450px;
 }
 
-.contactme{
-    
-width: 60%;
-    
-margin: 30px auto;
+.contactme {
+
+    width: 60%;
+
+    margin: 30px auto;
 }
 
 
 
-.contact input[type="submit"], .contact input[type="reset"]{
-    background-color: lightblue;
-    border: none;
-    border-radius: 4px;
-    padding: 15px;
-    margin: 12px 10px;
-    display: inline-block;
-    width: 100px;
-    cursor: pointer;
+.contact input[type="submit"],
+.contact input[type="reset"] {
+
+    background-color: lightblue;
+
+    border: none;
+
+    border-radius: 4px;
+
+    padding: 15px;
+
+    margin: 12px 10px;
+
+    display: inline-block;
+
+    width: 100px;
+
+    cursor: pointer;
 }
 
-.experience .exp{
-    
-font-size: 16px;
-    
-padding: 10px 15px;
-    
-display: inline-block;
-    
-height: 150px;
-    
-margin-top: 60px;
+.experience .exp {
+
+    font-size: 16px;
+
+    padding: 10px 15px;
+
+    display: inline-block;
+
+    height: 150px;
+
+    margin-top: 60px;
 }
 
-.exp .logo{
-    
-width: 200px;
-    
-filter: grayscale();
-    
-height: 40px;
-    
-background-repeat: no-repeat;
-    
-margin: 10px auto;
-    
-background-size: contain;
-    
-background-position: center;
+.exp .logo {
+
+    width: 200px;
+
+    filter: grayscale();
+
+    height: 40px;
+
+    background-repeat: no-repeat;
+
+    margin: 10px auto;
+
+    background-size: contain;
+
+    background-position: center;
 }
 
-.contact input[type="reset"]{
-    /* margin-left: 120px; */
-    /* margin-top: -57px; */
+.contact input[type="submit"]:hover,
+.contact input[type="reset"]:hover {
+
+    background-color: #76b0c3;
 }
 
-.contact input[type="submit"]:hover, .contact input[type="reset"]:hover{
-    
-background-color: #76b0c3;
+.contact input[type="text"],
+.contact input[type="email"] {
+
+    height: 45px;
+
+    padding: 15px;
+
+    background-color: #90adc16b;
+
+    font-size: 16px;
+
+    border-radius: 5px;
+
+    width: calc(50% - 10px);
+
+    margin-bottom: 12px;
+
+    display: inline-block;
+
+    border: 1px solid #939ba0;
 }
 
-.contact input[type="text"], .contact input[type="email"]{
+.contact textarea {
 
-height: 45px;
+    width: 100%;
 
-padding: 15px;
+    height: 200px;
 
-background-color: #90adc16b;
+    padding: 15px;
 
-font-size: 16px;
+    background-color: #90adc16b;
 
-border-radius: 5px;
+    font-size: 16px;
 
-width: calc(50% - 10px);
+    border-radius: 5px;
 
-margin-bottom: 12px;
+    display: inline-block;
 
-display: inline-block;
-
-border: 1px solid #939ba0;
-}
-
-.contact textarea{
-
-width: 100%;
-
-height: 200px;
-
-padding: 15px;
-
-background-color: #90adc16b;
-
-font-size: 16px;
-
-border-radius: 5px;
-
-display: inline-block;
-
-border: 1px solid #939ba0;
+    border: 1px solid #939ba0;
 }
 
 .mydp {
@@ -290,7 +303,7 @@ a {
 
 .tech {
     font-size: 12px;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 .redirect a {
@@ -298,7 +311,7 @@ a {
 }
 
 .contentholder {
-    width: 65%;
+    width: 768px;
     margin: auto;
     overflow: visible;
 }
@@ -403,6 +416,19 @@ footer .social {
     display: inline-block;
 }
 
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width: 800px) {
+    .card .screenshot {
+        display: block;
+        margin: auto;
+    }
 
-.section {}
+    .card .content {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .contentholder {
+        width: 100%;
+    }
+}
