@@ -97,7 +97,7 @@ class App extends Component{
             </Section>
             <footer>
                 <div class="copyright">
-                    © Copyright 2019, ◬IVCHITR⊙A.com
+                    © Copyright 2019, Divyesh Chitroda.
                 </div>
                 <Social />
             </footer>
