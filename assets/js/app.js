@@ -72,7 +72,7 @@ class App extends Component{
             return <Exp {...data}/>
         });
 
-        return <div style="width:100%; height:100%">
+        return <div>
             <div class="appliner"></div>
             <Section index="0" name="About">
                 <div class="bgimage"></div>
@@ -85,7 +85,7 @@ class App extends Component{
                 <h2>Web & Game Developer</h2>
                 <Social />
             </Section>
-            <Menu items={["About", "Porfolio", "Experience", "Contact Me"]}/>
+            <Menu items={["Portfolio", "Experience", "Contact Me"]}/>
             <Section index="2" name="Portfolio">
                 {cards}
             </Section>

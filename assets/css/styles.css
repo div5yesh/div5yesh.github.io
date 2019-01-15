@@ -75,7 +75,8 @@ h2 {
     background-color: #535456;
     padding: 0px 0px;
     color: white;
-    width: 383px;
+    text-align: center;
+    /* width: 383px; */
     margin: auto;
 }
 
