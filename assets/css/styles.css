@@ -140,8 +140,8 @@ h2 {
 }
 
 .card.rummy .screenshot {
-    width: 450px;
-    height: 250px;
+    /* width: 450px; */
+    /* height: 250px; */
 }
 
 .contact {
@@ -399,6 +399,8 @@ footer .social {
     .card .screenshot {
         display: block;
         margin: auto;
+        width: 320px;
+        height: 180px;
     }
 
     .card .content {
