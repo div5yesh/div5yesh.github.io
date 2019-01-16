@@ -44,7 +44,7 @@ class App extends Component{
                 tech: ["Javascript | ", "C# | ", "HTML/CSS"],
                 loc: {text: "Go to Product page", link: "https://www.zeuslearning.com/kepler"}
             },{
-                img: "",
+                img: "snapgest.png",
                 title: "Gesture Recognition using Image Processing",
                 desc: `Built gestures recognition based cross-platform application in Java & OpenCV to interact with computers.
                 Improved image recognition algorithm using various color models and image filters.`,
