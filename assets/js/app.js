@@ -6,6 +6,7 @@ import Social from './components/social';
 import Contact from './components/contact';
 import Menu from './components/menu';
 import Exp from './components/exp';
+import Message from './components/message';
 
 class App extends Component{
     
