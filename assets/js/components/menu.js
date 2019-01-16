@@ -12,7 +12,6 @@ class Menu extends Component{
             <ul class="menu">
                 {items}
             </ul>
-            <div class="menuline"></div>
         </div>
     }
 }
