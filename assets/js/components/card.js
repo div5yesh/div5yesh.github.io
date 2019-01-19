@@ -5,7 +5,7 @@ class Card extends Component{
     render(props){
         let cardClass = `card flip${props.flip} ${props.img.split('.')[0]}`;
 
-        return <div class={cardClass}>
+        return <div class={cardClass} data-aos="flip-up">
             <div class="contentholder">
                 <div class="screenshot"><img src={`../assets/media/${props.img}`}/></div>
                 <div class="content">

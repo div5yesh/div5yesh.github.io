@@ -113,10 +113,10 @@ class App extends Component{
                 </div>
             </div>
             <Menu items={["Portfolio", "Experience", "Contact Me"]}/>
-            <Section index="2" name="Portfolio">
+            <Section index="1" name="Portfolio">
                 {cards}
             </Section>
-            <Section index="" name="Experience">
+            <Section index="2" name="Experience">
                 {exps}
             </Section>
             <Section index="3" name="Contact Me">

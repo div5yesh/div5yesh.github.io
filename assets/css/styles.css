@@ -178,33 +178,55 @@ z-index: 3;
     text-align: center;
 }
 
-.exp.hover .logo {
+.exp, .exp.hover h3, .exp.hover .logo{
     filter: none;
 }
 
-.exp.playgames24x7.hover h3 {
+.exp.hover{
+    box-shadow: 3px 3px 8px 2px grey !important;
+}
+
+.exp.playgames24x7 h3 {
     color: #f37134;
 }
 
-.exp.zeuslearning.hover h3 {
+.exp.playgames24x7.hover {
+    border-color: #f37134;
+}
+
+.exp.zeuslearning h3 {
     color: #3ca2ec;
 }
 
-.exp.malayinfotech.hover h3 {
+.exp.zeuslearning.hover{
+    border-color: #3ca2ec;
+}
+
+.exp.malayinfotech h3 {
     color: #db2e26;
+}
+
+.exp.malayinfotech.hover{
+    border-color: #db2e26;
 }
 
 .exp.exp.zeuslearning .logo {
     width: 110px;
 }
 
+
+
 .exp h3 {
 
-    color: #696868;
+filter: grayscale();
 
-    font-weight: 300;
+/* color: #696868; */
 
-    margin: 0;
+font-weight: bold;
+
+margin: 0;
+
+/* animation: coloranim 2s ease-in-out 0s infinite alternate; */
 }
 
 .card .screenshot img {
@@ -279,32 +301,44 @@ outline: none;
 
 .experience .exp {
 
-    font-size: 16px;
+font-size: 16px;
 
-    padding: 10px 15px;
+padding: 10px 15px;
 
-    display: inline-block;
+display: inline-block;
 
-    height: 150px;
+/* height: 150px; */
 
-    margin-top: 60px;
+width: 230px;
+
+transition: border-color, box-shadow 500ms, 500ms;
+
+border-radius: 20px;
+
+border: 7px solid;
+
+margin: 60px 10px;
+
+box-shadow: 0px 0px 0px 0px grey;
 }
 
 .exp .logo {
 
-    width: 200px;
+width: 200px;
 
-    filter: grayscale();
+filter: grayscale();
 
-    height: 40px;
+height: 40px;
 
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
 
-    margin: 10px auto;
+margin: 15px auto;
 
-    background-size: contain;
+background-size: contain;
 
-    background-position: center;
+background-position: center;
+
+/* animation: coloranim 2s ease-in-out 0s infinite alternate; */
 }
 
 .contact input[type="submit"]:hover,
@@ -405,7 +439,7 @@ outline: none;
     border-radius: 50%;
     width: 180px;
     background-size: contain;
-    background-image: url('../media/divchitroda.jpeg');
+    background-image: url('../media/divchitroda.jpg');
 }
 
 .section {
@@ -413,12 +447,18 @@ outline: none;
     position: relative;
     font-size: 24px;
     margin: 60px auto;
+    overflow: hidden;
     text-align: center;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+@keyframes coloranim{
+    0% { filter: grayscale(0); }
+    100% { filter: grayscale(1); }
 }
 
 .desc {
@@ -578,6 +618,27 @@ footer .social {
         content: "i";
         font-family: monospace;
         font-size: 20px;
+    }
+
+    .exp, .exp h3, .exp .logo{
+        filter: none;
+    }
+    
+    .experience .exp{
+        box-shadow: 3px 3px 8px 2px grey;
+        margin: 20px 10px;
+    }
+
+    .exp.playgames24x7 {
+        border-color: #f37134;
+    }
+
+    .exp.zeuslearning{
+        border-color: #3ca2ec;
+    }
+    
+    .exp.malayinfotech{
+        border-color: #db2e26;
     }
 
     .contentholder {
