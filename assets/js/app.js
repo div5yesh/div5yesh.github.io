@@ -109,6 +109,7 @@ class App extends Component{
                         <p>I'm Divyesh. I have 4 years of experience in Software Development. I'm an ML and Robotics🤖 enthusiast.</p>
                         <p>{`I read, write and code, well not at the same time. I'm creative but cannot really draw a cat🐱. I play and create video games🎮.
                             Currently I'm wokring on Convolution Neural Networks for object detection.`}</p>
+                        <p><a href="darklab/index.html">Dark Labs</a></p>
                     </Section>
                 </div>
             </div>
