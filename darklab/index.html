@@ -12,7 +12,19 @@
 
 <body>
 </body>
-    <div>
-        <div><a href="../darklab/canvas-colortrail/index.html">Canvas Colortrail</a></div>
+    <div class="container">
+        <h2>Experiments</h2>
+        <div class="card" data-aos="fade-in"><a href="../darklab/canvas-colortrail/index.html">Canvas Colortrail</a></div>
     </div>
+    <script>
+        const AOS = require('aos');
+
+        AOS.init({
+            anchorPlacement: 'top-bottom',
+            easing: 'ease-in-out',
+            mirror: true,
+            duration: 600,
+            delay: 200
+        });
+    </script>
 </html>

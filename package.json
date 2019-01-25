@@ -28,6 +28,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "preact": "^8.4.2"
+    "preact": "^8.4.2",
+    "preact-router": "^2.6.1"
   }
 }

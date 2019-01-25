@@ -44,19 +44,26 @@ class App extends Component{
                 tech: ["Javascript | ", "C# | ", "HTML/CSS"],
                 loc: {text: "Go to Product page", link: "https://www.zeuslearning.com/kepler"}
             },{
-                img: "snapgest.png",
-                title: "Gesture Recognition using Image Processing",
-                desc: `Built gestures recognition based cross-platform application in Java & OpenCV to interact with computers.
-                Improved image recognition algorithm using various color models and image filters.`,
-                tech: ["OpenCV | ", "Java"],
-                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/snapgest"}
-            },{
                 img: "rogueai.gif",
                 title: "Rogue-like Explorer AI Agent",
                 desc: `Implemented exploration agent with propositional knowledge base for inference and decision making, A-star and depth-limited search for path planning.
                 Increased average exploration rate to 98% and winning chances by 20-30%.`,
                 tech: ["Python"],
                 loc: {text: "View on GitHub", link: "https://github.com/div5yesh/ai-explorer"}
+            },{
+                img: "distributed.png",
+                title: "Distributed System - Service Registry & Load Balancer",
+                desc: `Designed highly disturbed system with no single point of failure using Node Express.
+                Implemented blockchain ledger, load balancer with registry caching and service registry with health checkups.`,
+                tech: ["Javascript | ", "NodeJS"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/distributed-system"}
+            },{
+                img: "snapgest.png",
+                title: "Gesture Recognition using Image Processing",
+                desc: `Built gestures recognition based cross-platform application in Java & OpenCV to interact with computers.
+                Improved image recognition algorithm using various color models and image filters.`,
+                tech: ["OpenCV | ", "Java"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/snapgest"}
             }]
         };
     }
@@ -108,8 +115,8 @@ class App extends Component{
                     <Section name="About Me">
                         <p>I'm Divyesh. I have 4 years of experience in Software Development. I'm an ML and Robotics🤖 enthusiast.</p>
                         <p>{`I read, write and code, well not at the same time. I'm creative but cannot really draw a cat🐱. I play and create video games🎮.
-                            Currently I'm wokring on Convolution Neural Networks for object detection.`}</p>
-                        <p><a href="darklab/index.html">Dark Labs</a></p>
+                            Currently, I'm working on Convolution Neural Networks for object detection.`}</p>
+                        {/* <p><a href="darklab/index.html">Dark Lab</a></p> */}
                     </Section>
                 </div>
             </div>
