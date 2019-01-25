@@ -473,7 +473,6 @@ a {
     background-color: #549657;
     border-radius: 4px;
     display: inline-block;
-    padding: 8px 30px;
     box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.5);
     font-size: 12px;
 }
@@ -495,6 +494,8 @@ a {
 
 .redirect a {
     color: white;
+    padding: 8px 30px;
+    display: inline-block;
 }
 
 .contentholder {

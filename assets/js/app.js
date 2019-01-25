@@ -58,6 +58,13 @@ class App extends Component{
                 tech: ["Javascript | ", "NodeJS"],
                 loc: {text: "View on GitHub", link: "https://github.com/div5yesh/distributed-system"}
             },{
+                img: "tfsapp.png",
+                title: "TFS Plugin & Web App",
+                desc: `Developed a c++ windows win32 service to sync sql database and Team Foundation Server database.
+                Designed Web application in ASP.net to track and manage TFS projects, eliminating all means of delays to the clients in knowing the current milestones of their products shared with the providers.`,
+                tech: ["C# | ", "C++ | ", "ASP.net | ", "MS SQL"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/"}
+            },{
                 img: "snapgest.png",
                 title: "Gesture Recognition using Image Processing",
                 desc: `Built gestures recognition based cross-platform application in Java & OpenCV to interact with computers.
