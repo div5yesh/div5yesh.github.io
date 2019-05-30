@@ -246,6 +246,15 @@ margin: 0;
     /* height: 250px; */
 }
 
+.section.portfolio{
+    margin-top: 60px;
+}
+
+.section.experience{
+    padding-top: 60px;
+    background-color: #252526;
+}
+
 .contact {
     /* margin: 50px auto; */
     /* max-width: 450px; */
@@ -266,7 +275,7 @@ caret-color: white;
 
 margin-bottom: 0;
 
-padding: 70px 0;
+padding: 10px 0 70px 0;
 }
 
 .section.contactme h3{
@@ -315,7 +324,7 @@ transition: border-color, box-shadow 500ms, 500ms;
 
 border-radius: 20px;
 
-border: 7px solid;
+border: 7px solid white;
 
 margin: 60px 10px;
 
@@ -427,6 +436,8 @@ caret-color: cyan;
 
 color: white;
 
+resize: none;
+
 border: 1px solid #939ba0;
 
 box-shadow: 2px 2px 4px 1px #5d73808a inset;
@@ -450,7 +461,7 @@ outline: none;
     display: block;
     position: relative;
     font-size: 24px;
-    margin: 60px auto;
+    /* margin: 60px auto; */
     overflow: hidden;
     text-align: center;
 }

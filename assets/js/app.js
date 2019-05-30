@@ -6,7 +6,6 @@ import Social from './components/social';
 import Contact from './components/contact';
 import Menu from './components/menu';
 import Exp from './components/exp';
-import Message from './components/message';
 
 class App extends Component{
     
@@ -42,7 +41,7 @@ class App extends Component{
                 Implemented file auto save functionality using web workers & auto-fill series algorithms for Excel.
                 Designed distributed selenium automation with TestNG across multiple devices & platforms in Java`,
                 tech: ["Javascript | ", "C# | ", "HTML/CSS"],
-                loc: {text: "Go to Product page", link: "https://www.zeuslearning.com/kepler"}
+                loc: {text: "Go to the Product page", link: "https://www.zeuslearning.com/kepler"}
             },{
                 img: "rogueai.gif",
                 title: "Rogue-like Explorer AI Agent",
@@ -50,6 +49,13 @@ class App extends Component{
                 Increased average exploration rate to 98% and winning chances by 20-30%.`,
                 tech: ["Python"],
                 loc: {text: "View on GitHub", link: "https://github.com/div5yesh/ai-explorer"}
+            },{
+                img: "2bots.png",
+                title: "Studying Collaboration in Human-Robot Population",
+                desc: `The project implements a framework to study the interaction of a human-robot population with Turtlebots in a ROS Gazebo simulation.
+                In the user study, I have evaluated the efficiency and preference of an HR collaboration.`,
+                tech: ["Python | ROS | Gazebo"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/human-robot-population-collab"}
             },{
                 img: "distributed.png",
                 title: "Distributed System - Service Registry & Load Balancer",
@@ -122,7 +128,7 @@ class App extends Component{
                     <Section name="About Me">
                         <p>I'm Divyesh. I have 4 years of experience in Software Development. I'm an ML and Robotics🤖 enthusiast.</p>
                         <p>{`I read, write and code, well not at the same time. I'm creative but cannot really draw a cat🐱. I play and create video games🎮.
-                            Currently, I'm working on Convolution Neural Networks for object detection.`}</p>
+                            Currently, I'm working on visualization and time series analysis of fMRI data.`}</p>
                         {/* <p><a href="darklab/index.html">Dark Lab</a></p> */}
                     </Section>
                 </div>
