@@ -206,6 +206,14 @@ z-index: 3;
     color: #db2e26;
 }
 
+.exp.mindgrubtechnologies h3{
+    color: #ff8200;
+}
+
+.exp.mindgrubtechnologies.hover{
+    border-color: #ff8200;
+}
+
 .exp.malayinfotech.hover{
     border-color: #db2e26;
 }
@@ -217,15 +225,11 @@ z-index: 3;
 
 
 .exp h3 {
-
 filter: grayscale();
-
 /* color: #696868; */
-
-font-weight: bold;
-
+font-size: 16px;
+/* font-weight: bold; */
 margin: 0;
-
 /* animation: coloranim 2s ease-in-out 0s infinite alternate; */
 }
 
@@ -337,7 +341,7 @@ width: 200px;
 
 filter: grayscale();
 
-height: 40px;
+height: 50px;
 
 background-repeat: no-repeat;
 
@@ -661,6 +665,10 @@ footer .social {
     
     .exp.malayinfotech{
         border-color: #db2e26;
+    }
+
+    .exp.mindgrubtechnologies{
+        border-color: #ff8200;
     }
 
     .contentholder {

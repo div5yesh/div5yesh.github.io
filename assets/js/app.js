@@ -14,6 +14,10 @@ class App extends Component{
         this.onAboutClick = this.onAboutClick.bind(this);
         this.state = {
             expdata: [{
+                img: "mindgrub.png",
+                title: "Associate Software Engineer",
+                company: "Mindgrub Technologies"
+            },{
                 img: "games24x7.png",
                 title: "Software Dev. Engineer",
                 company: "Play Games24x7"
@@ -27,6 +31,27 @@ class App extends Component{
                 company: "Malay Infotech"
             }],
             carddata: [{
+                img: "2bots.png",
+                title: "Studying Collaboration in Human-Robot Population",
+                desc: `The project implements a framework to study the interaction of a human-robot population with Turtlebots in a ROS Gazebo simulation.
+                In the user study, I have evaluated the efficiency and preference of an HR collaboration.`,
+                tech: ["Python | ROS | Gazebo"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/human-robot-population-collab"}
+            },{
+                img: "rogueai.gif",
+                title: "Rogue-like Explorer AI Agent",
+                desc: `Implemented exploration agent with propositional knowledge base for inference and decision making, A-star and depth-limited search for path planning.
+                Increased average exploration rate to 98% and winning chances by 20-30%.`,
+                tech: ["Python"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/ai-explorer"}
+            },{
+                img: "distributed.png",
+                title: "Distributed System - Service Registry & Load Balancer",
+                desc: `Designed highly disturbed system with no single point of failure using Node Express.
+                Implemented blockchain ledger, load balancer with registry caching and service registry with health checkups.`,
+                tech: ["Javascript | ", "NodeJS"],
+                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/distributed-system"}
+            },{
                 img: "rummy.jpg",
                 title: "RummyCircle Game Table - Native App",
                 desc: `Implemented multiplayer online rummy game in Cocos2d (JavaScript & Redux) using unified codebase & Web Socket bridge in Java for native platform.
@@ -42,27 +67,6 @@ class App extends Component{
                 Designed distributed selenium automation with TestNG across multiple devices & platforms in Java`,
                 tech: ["Javascript | ", "C# | ", "HTML/CSS"],
                 loc: {text: "Go to the Product page", link: "https://www.zeuslearning.com/kepler"}
-            },{
-                img: "rogueai.gif",
-                title: "Rogue-like Explorer AI Agent",
-                desc: `Implemented exploration agent with propositional knowledge base for inference and decision making, A-star and depth-limited search for path planning.
-                Increased average exploration rate to 98% and winning chances by 20-30%.`,
-                tech: ["Python"],
-                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/ai-explorer"}
-            },{
-                img: "2bots.png",
-                title: "Studying Collaboration in Human-Robot Population",
-                desc: `The project implements a framework to study the interaction of a human-robot population with Turtlebots in a ROS Gazebo simulation.
-                In the user study, I have evaluated the efficiency and preference of an HR collaboration.`,
-                tech: ["Python | ROS | Gazebo"],
-                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/human-robot-population-collab"}
-            },{
-                img: "distributed.png",
-                title: "Distributed System - Service Registry & Load Balancer",
-                desc: `Designed highly disturbed system with no single point of failure using Node Express.
-                Implemented blockchain ledger, load balancer with registry caching and service registry with health checkups.`,
-                tech: ["Javascript | ", "NodeJS"],
-                loc: {text: "View on GitHub", link: "https://github.com/div5yesh/distributed-system"}
             },{
                 img: "tfsapp.png",
                 title: "TFS Plugin & Web App",
