@@ -16,19 +16,23 @@ class App extends Component{
             expdata: [{
                 img: "mindgrub.png",
                 title: "Associate Software Engineer",
-                company: "Mindgrub Technologies"
+                company: "Mindgrub Technologies",
+                url: "https://www.mindgrub.com"
             },{
                 img: "games24x7.png",
                 title: "Software Dev. Engineer",
-                company: "Play Games24x7"
+                company: "Play Games24x7",
+                url: "http://www.games24x7.org"
             },{
                 img: "zeus.png",
                 title: "Software Engineer",
-                company: "Zeus Learning"
+                company: "Zeus Learning",
+                url: "https://www.zeuslearning.com"
             },{
                 img: "malay.png",
                 title: "Software Engineer Intern",
-                company: "Malay Infotech"
+                company: "Malay Infotech",
+                url: "http://www.malayinfotech.com"
             }],
             carddata: [{
                 img: "2bots.png",
