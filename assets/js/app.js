@@ -56,7 +56,7 @@ class App extends Component{
                 tech: ["Javascript | ", "NodeJS"],
                 loc: {text: "View on GitHub", link: "https://github.com/div5yesh/distributed-system"}
             },{
-                img: "rummy.jpg",
+                img: "rummy.png",
                 title: "RummyCircle Game Table - Native App",
                 desc: `Implemented multiplayer online rummy game in Cocos2d (JavaScript & Redux) using unified codebase & Web Socket bridge in Java for native platform.
                 Implemented code & resources hot update for Rummy Circle native app using Cocos2d Assets Manager.
