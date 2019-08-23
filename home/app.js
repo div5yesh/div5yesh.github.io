@@ -1,11 +1,11 @@
 import { h, render, Component } from 'preact';
-import Section from './components/section';
-import Card from './components/card';
-import TypeCursor from './components/typecursor';
-import Social from './components/social';
-import Contact from './components/contact';
-import Menu from './components/menu';
-import Exp from './components/exp';
+import Section from './section';
+import Card from './card';
+import TypeCursor from './typecursor';
+import Social from './social';
+import Contact from './contact';
+import Menu from './menu';
+import Exp from './exp';
 
 class App extends Component{
     

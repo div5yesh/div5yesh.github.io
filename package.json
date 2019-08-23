@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
-    "watch": "webpack --watch",
+    "watch": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/div5yesh/div5yesh.github.io#readme",
   "devDependencies": {
+    "file-loader": "^4.2.0",
     "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "3.7.2"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -29,6 +31,7 @@
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "preact": "^8.4.2",
+    "preact-markdown": "^0.5.0",
     "preact-router": "^2.6.1"
   }
 }

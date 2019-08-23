@@ -1,4 +1,4 @@
 import { h, render } from 'preact';
-import App from './assets/js/app';
+import App from './app';
 
 render(<App />, document.getElementById("app"));

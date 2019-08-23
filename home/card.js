@@ -7,7 +7,7 @@ class Card extends Component{
 
         return <div class={cardClass}>
             <div class="contentholder">
-                <div class="screenshot"><img src={`../assets/media/${props.img}`}/></div>
+                <div class="screenshot"><img src={`../media/${props.img}`}/></div>
                 <div class="content">
                     <h3 class="title">{props.title}</h3>
                     <div class="desc">{props.desc}</div>

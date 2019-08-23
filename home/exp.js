@@ -24,7 +24,7 @@ class Exp extends Component{
 
     render(props){
         let expClass = `exp ${props.company.toLowerCase().replace(' ', '')}`,
-        imgsrc = `../assets/media/${props.img}`;
+        imgsrc = `../media/${props.img}`;
 
         return <div class={expClass} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
             <div>
