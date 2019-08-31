@@ -8,7 +8,7 @@ class Menu extends Component{
             return <li class="menuitem"><a href={`#${item.toLowerCase().replace(' ', '')}`}>{item}</a></li>;
         });
 
-        items.push(<li class="menuitem"><a href={`blog.divchitroda.com`}>Blog</a></li>);
+        items.push(<li class="menuitem"><a href={`https://blog.divchitroda.com`}>Blog</a></li>);
 
         return <div class="menubar">
             <ul class="menu">
