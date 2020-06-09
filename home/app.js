@@ -152,9 +152,6 @@ class App extends Component{
                 <Contact />
             </Section>
             <footer>
-                <div class="copyright">
-                    © Copyright 2019, Divyesh Chitroda.
-                </div>
                 <Social />
             </footer>
         </div>
